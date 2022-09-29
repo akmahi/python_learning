@@ -20,14 +20,34 @@
 # print(s.name)
 # print(As.name)
 
+# class As:
+#     #class Attribute
+#     name = "Ajith"
+#
+#     def changename(self, name):
+#         #instance Atrribute
+#         self.name - name
+#
+# print(As.name)
+# obj = As()
+# obj.name = "kumar"
+# print(obj.name)
+# print(As.name)
+
 class As:
+    #class Attribute
     name = "Ajith"
 
     def changename(self, name):
-        self.name - name
+        #instance Atrribute
+        self.name1 = name
 
-print(As.name)
 obj = As()
-obj.name = "kumar"
-print(obj.name)
-print(As.name)
+obj1 = As()
+obj.changename("kk")
+del obj.name1
+# print(obj.name1)
+del obj1
+print(obj1.name)
+
+
